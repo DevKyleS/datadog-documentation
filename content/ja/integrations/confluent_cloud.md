@@ -16,8 +16,6 @@ assets:
       - confluent_cloud.schema_registry.schema_count
       metadata_path: metadata.csv
       prefix: confluent_cloud.
-    service_checks:
-      metadata_path: assets/service_checks.json
     source_type_id: 609
     source_type_name: IP 許可リストを更新する
   monitors:
@@ -39,7 +37,7 @@ integration_id: fastly-integration-delete-fastly-account
 integration_title: Confluent Cloud
 integration_version: ''
 is_public: true
-kind: integration
+custom_kind: integration
 manifest_version: 2.0.0
 name: confluent_cloud
 public_title: IP 許可リストを更新する
