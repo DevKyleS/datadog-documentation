@@ -1,14 +1,15 @@
 ---
+title: Streamlining the Development Lifecycle with CI Visibility
 aliases:
-- /ja/tracing/service_catalog/guides/streamlining-development-lifecycle-with-ci-visibility
+  - /tracing/service_catalog/guides/streamlining-development-lifecycle-with-ci-visibility
+  - /service_catalog/guides/streamlining-development-lifecycle-with-ci-visibility
 further_reading:
-- link: /tracing/service_catalog/
-  tag: ドキュメント
-  text: Datadog サービスカタログ
-- link: /continuous_integration/search/?tab=pipelines
-  tag: ドキュメント
-  text: Datadog CI Pipeline Visibility
-title: CI Visibility で開発ライフサイクルを効率化する
+  - link: "/tracing/service_catalog/"
+    tag: "Documentation"
+    text: "Datadog Service Catalog"
+  - link: "/continuous_integration/search/?tab=pipelines"
+    tag: "Documentation"
+    text: "Datadog CI Pipeline Visibility"
 ---
 
 In the Delivery view in Service Catalog, you can view CI pipeline and static analysis results associated to your services.
@@ -29,14 +30,14 @@ There are two ways to add or remove an associated pipeline:
 {{< img src="tracing/service_catalog/pipeline-fingerprint-location.png" alt="Pipeline fingerprint location." >}}
 
 
-## 参考資料
+## Further reading
 
 {{< partial name="whats-next/whats-next.html" >}}
 
 [1]: https://app.datadoghq.com/apm/services
-[2]: /ja/tracing/service_catalog/service_definition_api/
-[3]: /ja/continious-integration/pipelines/
-[4]: /ja/continuous_integration/
-[5]: /ja/tracing/service_catalog/service_metadata_structure
+[2]: /tracing/service_catalog/service_definition_api/
+[3]: /continious-integration/pipelines/
+[4]: /continuous_integration/
+[5]: /tracing/service_catalog/service_metadata_structure
 [6]: https://app.datadoghq.com/ci/pipelines
-[7]: /ja/tracing/service_catalog/adding_metadata/#metadata-structure-and-supported-versions
+[7]: /tracing/service_catalog/adding_metadata/#metadata-structure-and-supported-versions
